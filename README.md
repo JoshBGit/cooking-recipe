@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Cooking Recipe 
 
-## Getting Started
+This document outlines the architecture and features of "Cooking Recipe",a web application built with Next.js, Sanity, NextAuth, Tailwind CSS, and Shadcn for styling.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Features**
+  1. Discover a collection of recipes. 
+  2. Recipe cards displaying key information: title, image, cooking-time and views.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Detailed Recipe Page**
+  1. Comprehensive recipe instructions with clear steps, ingredient lists.
+  2. User-friendly formatting for readability.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Add your recipe**
+  1.  Users can add their own recipes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend:**
+- Next.js (React framework) for server-side rendering and dynamic routing.
+- Tailwind CSS for utility-first styling.
+- Shadcn for a minimal design system built on top of Tailwind.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Backend:**
+- Sanity CMS for content management.
+- Node.js runtime environment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Authentication:**
+- NextAuth.js for seamless user authentication and authorization.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Benefits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Scalability & Performance:** Next.js's server-side rendering capabilities ensure fast page loads and optimal SEO performance.
+
+**Developer Productivity:** Tailwind CSS and Shadcn streamline styling with pre-defined classes, promoting rapid development.
+
+**Content Flexibility & Control:** Sanity CMS empowers users to manage content easily while offering a flexible schema for different recipe types.
